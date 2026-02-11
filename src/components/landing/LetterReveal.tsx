@@ -4,26 +4,25 @@ import { motion } from "motion/react";
 import { letterReveal, letterLine } from "@/lib/animations";
 
 const lines = [
-  "To My Love,",
+  "To Jordan,",
   "",
-  "From the moment you walked into my life,",
-  "everything became more beautiful.",
+  "From Bentonville to Houston,",
+  "from high school sweethearts to building a life together —",
+  "you've been my favorite person",
+  "since the day I met you.",
   "",
-  "Every place we've been,",
-  "every laugh we've shared,",
-  "every quiet moment together —",
-  "they're all pieces of the most beautiful story",
-  "I've ever been part of.",
+  "You've driven across states for me.",
+  "Flown across the country for me.",
+  "Moved your whole life to be with me.",
   "",
   "I made this for you.",
   "A map of us. A map of our love.",
-  "",
-  "Tap each heart to relive our memories.",
+  "Tap each heart to relive our story.",
   "",
   "Happy Valentine's Day, baby.",
   "I love you more than words can say.",
   "",
-  "— Forever Yours ♥",
+  "— Gabe ♥",
 ];
 
 export default function LetterReveal() {

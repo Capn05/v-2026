@@ -6,9 +6,9 @@ export const MAPBOX_TOKEN = process.env.NEXT_PUBLIC_MAPBOX_TOKEN || "";
 export const MAP_STYLE = "mapbox://styles/mapbox/light-v11";
 
 export const INITIAL_VIEW = {
-  longitude: -118.15,
-  latitude: 33.85,
-  zoom: 7.5,
+  longitude: -96.0,
+  latitude: 33.0,
+  zoom: 4.5,
   pitch: 0,
   bearing: 0,
 };
