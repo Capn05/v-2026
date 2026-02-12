@@ -9,7 +9,7 @@ export const memories: Memory[] = [
     coordinates: [-94.2088, 36.3729],
     location: "Bentonville, Arkansas",
     description:
-      "Two sophomores in high school who had no idea what was about to happen. This little town is where I found you, and nothing has been the same since. Bentonville gave me the best thing in my life.",
+      "We were just two sophomores in high school without a care in the world. Our little town is where I found you, and nothing has been the same since. Bentonville gave me the best thing in my life.",
     thinking:
       "I remember seeing her and just knowing something was different. I didn't know it yet, but this girl was about to change my whole world.",
     photos: [
@@ -26,7 +26,7 @@ export const memories: Memory[] = [
     coordinates: [-92.2896, 34.7465],
     location: "Little Rock, Arkansas",
     description:
-      "We turned a state competition into our own little adventure. Between the events and the nerves, having you there made everything better. We were always each other's biggest cheerleaders.",
+      "We turned a lame competition into our own little adventure. Having you there made everything better. You got so homesick and you leaned on me for support.",
     thinking:
       "Even at a competition, all I can think about is how lucky I am that she's here with me. We make everything more fun.",
     photos: [
@@ -43,7 +43,7 @@ export const memories: Memory[] = [
     coordinates: [-93.6446, 35.1670],
     location: "The Lodge at Mount Magazine, Arkansas",
     description:
-      "Our senior trip before the real world pulled us in different directions. Just the two of us at the highest point in Arkansas. It felt like we were on top of the world — because we were.",
+      "Our senior trip before we were pulled in different directions. Just the two of us at the highest point in Arkansas. This was the first time we were truly alone together.",
     thinking:
       "College is coming and everything is about to change. But right now, with her next to me looking out at this view, I know we're going to be okay. We can handle anything.",
     photos: [
@@ -55,12 +55,12 @@ export const memories: Memory[] = [
   {
     id: "first-college-visit",
     order: 4,
-    title: "She Drove All the Way Down",
+    title: "Jordan takes on her city",
     date: "September 2022",
     coordinates: [-95.4014, 29.7174],
     location: "Rice University, Houston",
     description:
-      "The first time Jordan drove down to see me at Rice. Long distance was hard, but the moment I saw her car pull up, none of that mattered. She made Houston feel like home before I even could.",
+      "The first time Jordan drove down to see me at Rice. Long distance was really hard, but the moment I saw her car pull up, it made me so happy.",
     thinking:
       "She really drove all this way just for me. I don't deserve this girl. Seeing her face after weeks apart — that's the best feeling in the world.",
     photos: [
@@ -77,7 +77,7 @@ export const memories: Memory[] = [
     coordinates: [-97.7431, 30.2672],
     location: "Austin, Texas",
     description:
-      "She came to visit and we road-tripped to Austin to watch UT women's basketball — her favorite team. Watching her light up in that arena, cheering her heart out, that's a core memory forever.",
+      "Jordan came to visit and we road-tripped to Austin to watch UT women's basketball — her favorite team. It made me so happy to see her so happy.",
     thinking:
       "She's so into this game and I'm so into her. The way her eyes light up — I'd drive to every single game if it meant seeing that smile.",
     photos: [
@@ -94,7 +94,7 @@ export const memories: Memory[] = [
     coordinates: [-94.7977, 29.3013],
     location: "Galveston, Texas",
     description:
-      "Three years together and still finding new ways to fall in love. Jordan came down for our anniversary and we escaped to Galveston — the ocean, the boardwalk, just us. Three years felt like the beginning.",
+      "Three years together and still finding new ways to fall in love. After a weekend of Astros, Rooftop Cinema, love lock bridge, and Museums, we finished it off with a walk on the Galveston beach. It made me happy to see you so happy.",
     thinking:
       "Three years. I can't believe it's been three years and I still get butterflies. This girl chose me, and keeps choosing me. I'll never take that for granted.",
     photos: [
@@ -111,7 +111,7 @@ export const memories: Memory[] = [
     coordinates: [-111.7610, 34.8697],
     location: "Flagstaff & Sedona, Arizona",
     description:
-      "Spring break with our Rice crew — skiing in Flagstaff, exploring the red rocks of Sedona. But my favorite part was always the quiet moments with her, warming up together after a day on the slopes.",
+      "Spring break skiing in Flagstaff, and seeing the red rocks in Sedona. But my favorite part was always the quiet moments with her, warming up together after a day on the slopes.",
     thinking:
       "She's fearless on those slopes. Also she looks ridiculously cute in ski gear. This trip, these friends, this girl — life is good.",
     photos: [
@@ -128,7 +128,7 @@ export const memories: Memory[] = [
     coordinates: [-122.1430, 37.4419],
     location: "Palo Alto, California",
     description:
-      "Jordan flew out to California for my birthday while I was interning at Meta. Having her there turned a work summer into the best summer. She always shows up when it matters.",
+      "Jordan flew out to California for my birthday while I was interning. Having her there turned for my birthday made me so happy: I was really really excited to show her everything I had experienced that summer. Without her my birthday feels so lonely",
     thinking:
       "She came all the way to California for my birthday. I'm out here working and she still finds a way to make me feel like the most important person in the world.",
     photos: [
@@ -140,12 +140,12 @@ export const memories: Memory[] = [
   {
     id: "san-francisco",
     order: 9,
-    title: "City by the Bay",
+    title: "SF Day Trip",
     date: "July 2024",
     coordinates: [-122.4194, 37.7749],
     location: "San Francisco, California",
     description:
-      "We drove up to the city and explored San Francisco together — the Golden Gate, the hills, the food. Every new city is better with her. We could be anywhere and it would feel like an adventure.",
+      "We drove up to the city and explored San Francisco together: the Golden Gate, Palace of Fine Arts, and the great food. Every new city is better with her. We could be anywhere and it would feel like an adventure.",
     thinking:
       "Walking through this city with her hand in mine, I keep thinking about how we went from a small town in Arkansas to exploring the world together. What a journey.",
     photos: [
@@ -157,12 +157,12 @@ export const memories: Memory[] = [
   {
     id: "jordan-moves-houston",
     order: 10,
-    title: "She Chose Us",
+    title: "She Chose Me",
     date: "August 2024",
     coordinates: [-95.3422, 29.7199],
     location: "University of Houston",
     description:
-      "Jordan transferred to the University of Houston to be closer to me. After years of long distance, she packed up her life and moved to Houston. No more countdowns, no more goodbyes at the door. She chose us.",
+      "Jordan transferred to the University of Houston to be close to me. After years of long distance, she packed up everything and moved to Houston. I know how scared she was, but she did it for me. Thats how I know she loves me",
     thinking:
       "She's really here. Not for a weekend, not for a visit — she's here. I don't have to say goodbye this time. I'm never going to forget what she gave up to make this work.",
     photos: [
@@ -179,7 +179,7 @@ export const memories: Memory[] = [
     coordinates: [-97.1681, 26.1118],
     location: "South Padre Island, Texas",
     description:
-      "Sun, sand, and the love of my life. South Padre for spring break was exactly what we needed — no deadlines, no responsibilities, just us soaking in every moment together.",
+      "Sun, sand, and missy. South Padre for spring break was exactly what we needed. Some time alone without any stress or responsibilities. I wish we could do it every weekend",
     thinking:
       "She's dancing on the beach and I'm just standing here thinking about how I fell in love with this girl in Arkansas and now we're here. Life is beautiful.",
     photos: [
@@ -196,7 +196,7 @@ export const memories: Memory[] = [
     coordinates: [-74.0060, 40.7128],
     location: "New York City",
     description:
-      "She did it again — flew across the country to be with me for my birthday while I was back at Meta, this time in New York. The city that never sleeps had nothing on us. Jordan, you are my constant.",
+      "The second time Jordan flew across the country to be with me for my birthday while I was interning, this time in New York. The city that never sleeps had nothing on us. Jordan and I tore up the city!",
     thinking:
       "Two summers in a row she's shown up for me on the other side of the country. Most people talk about love. She just shows up. Every single time.",
     photos: [
@@ -213,7 +213,7 @@ export const memories: Memory[] = [
     coordinates: [-95.3698, 29.7604],
     location: "Houston — Our Home",
     description:
-      "Every pin on this map is a piece of our story — from Bentonville to New York City and everywhere in between. You've driven across states, flown across the country, and moved your whole life just to be with me. You are my favorite adventure, my best friend, my home. I love you more than any map could ever show.",
+      "Every pin on this map is a piece of our story, from Bentonville to New York City and everywhere in between. You've driven across states, flown across the country, and moved your whole life just to be with me. You are my favorite adventure, my best friend, my home. I love you more than any map could ever show.",
     thinking:
       "I made this for you because you deserve to see our love story the way I see it — as the most beautiful journey I've ever been on. From two sophomores in a small town to building a life together in Houston. Happy Valentine's Day, baby. Here's to filling a thousand more maps together.",
     photos: [
