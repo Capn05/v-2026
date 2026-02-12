@@ -60,7 +60,7 @@ export const memories: Memory[] = [
     coordinates: [-95.4014, 29.7174],
     location: "Rice University, Houston",
     description:
-      "The first time Jordan drove down to see me at Rice. Long distance was really hard, but the moment I saw her car pull up, it made me so happy.",
+      "The first time Jordan drove down to see me at Rice. Long distance was really hard, but the moment I saw her car pull up, it made me .",
     thinking:
       "She really drove all this way just for me. I don't deserve this girl. Seeing her face after weeks apart — that's the best feeling in the world.",
     photos: [
@@ -94,7 +94,7 @@ export const memories: Memory[] = [
     coordinates: [-94.7977, 29.3013],
     location: "Galveston, Texas",
     description:
-      "Three years together and still finding new ways to fall in love. After a weekend of Astros, Rooftop Cinema, love lock bridge, and Museums, we finished it off with a walk on the Galveston beach. It made me happy to see you so happy.",
+      "Three years together and still finding new ways to fall in love. After a weekend of Astros, Rooftop Cinema, love lock bridge, and Museums, we finished it off with a walk on the Galveston beach. It seems like the only memorable things in my life happen when I'm with you.",
     thinking:
       "Three years. I can't believe it's been three years and I still get butterflies. This girl chose me, and keeps choosing me. I'll never take that for granted.",
     photos: [
@@ -128,7 +128,7 @@ export const memories: Memory[] = [
     coordinates: [-122.1430, 37.4419],
     location: "Palo Alto, California",
     description:
-      "Jordan flew out to California for my birthday while I was interning. Having her there turned for my birthday made me so happy: I was really really excited to show her everything I had experienced that summer. Without her my birthday feels so lonely",
+      "Jordan flew out to California for my birthday while I was interning. Having her there turned for my birthday was the only thing I needed: I was really really excited to show her everything I had experienced that summer. Without her my birthday feels so lonely",
     thinking:
       "She came all the way to California for my birthday. I'm out here working and she still finds a way to make me feel like the most important person in the world.",
     photos: [
