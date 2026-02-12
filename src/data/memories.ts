@@ -54,7 +54,7 @@ export const memories: Memory[] = [
     coordinates: [-95.4014, 29.7174],
     location: "Rice University, Houston",
     description:
-      "The first time Jordan drove down to see me at Rice. Long distance was really hard, but the moment I saw her car pull up, it made me .",
+      "The first time Jordan drove down to see me at Rice. Long distance was really hard, but the moment I saw her car pull up, I lit up!",
     photos: [
       { src: "/photos/04-rice-visit/photo1.jpg", alt: "First visit at Rice" },
       { src: "/photos/04-rice-visit/photo2.jpg", alt: "Houston together" },
@@ -69,7 +69,7 @@ export const memories: Memory[] = [
     coordinates: [-97.7431, 30.2672],
     location: "Austin, Texas",
     description:
-      "Jordan came to visit and we road-tripped to Austin to watch UT women's basketball — her favorite team. It made me so happy to see her so happy.",
+      "Jordan came to visit and we road-tripped to Austin to watch UT women's basketball — her favorite team. It made me so happy to see her so happy. Everytime she cheered I couldn't help but smile! ",
     photos: [
       { src: "/photos/05-austin/photo1.jpg", alt: "UT basketball game" },
       { src: "/photos/05-austin/photo2.jpg", alt: "Austin trip" },
@@ -114,7 +114,7 @@ export const memories: Memory[] = [
     coordinates: [-122.1430, 37.4419],
     location: "Palo Alto, California",
     description:
-      "Jordan flew out to California for my birthday while I was interning. Having her there turned for my birthday was the only thing I needed: I was really really excited to show her everything I had experienced that summer. Without her my birthday feels so lonely",
+      "Jordan flew out to California for my birthday while I was interning. Having her there for my birthday was the only thing I needed: I was really really excited to show her everything I had experienced that summer. Without her my birthday feels so lonely",
     photos: [
       { src: "/photos/08-palo-alto/photo1.jpg", alt: "Birthday in Palo Alto" },
       { src: "/photos/08-palo-alto/photo2.jpg", alt: "Meta campus" },
