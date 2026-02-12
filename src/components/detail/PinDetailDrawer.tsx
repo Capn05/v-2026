@@ -103,7 +103,6 @@ export default function PinDetailDrawer({
               />
               <MemoryText
                 description={memory.description}
-                thinking={memory.thinking}
                 isSpecial={isSpecial}
               />
 

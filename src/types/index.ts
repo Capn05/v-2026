@@ -13,7 +13,6 @@ export interface Memory {
   coordinates: [number, number]; // [lng, lat]
   location: string;
   description: string;
-  thinking: string; // "What I was thinking..."
   photos: MemoryPhoto[];
   emoji?: string;
   isSpecial?: boolean; // final valentine pin
