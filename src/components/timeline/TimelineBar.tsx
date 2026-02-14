@@ -16,8 +16,8 @@ export default function TimelineBar({
 }: TimelineBarProps) {
   return (
     <div className="fixed bottom-0 left-0 right-0 z-30 safe-bottom">
-      <div className="bg-cream/90 backdrop-blur-md border-t border-rose-light/20 px-4 py-3">
-        <div className="flex items-center gap-1 overflow-x-auto no-scrollbar">
+      <div className="bg-cream/90 backdrop-blur-md border-t border-rose-light/20 px-4 pt-4 pb-3">
+        <div className="flex items-center gap-1 overflow-x-auto overflow-y-visible no-scrollbar">
           {/* Connecting line */}
           <div className="absolute left-4 right-4 top-1/2 h-px bg-rose-light/30" />
 

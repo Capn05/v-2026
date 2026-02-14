@@ -111,7 +111,7 @@ export default function PinDetailDrawer({
             </div>
 
             {/* Navigation */}
-            <div className="sticky bottom-0 bg-cream/95 backdrop-blur-sm px-5 py-4 border-t border-rose-light/20 flex items-center justify-between safe-bottom">
+            <div className="sticky bottom-0 bg-cream/95 backdrop-blur-sm px-5 pt-4 pb-8 md:pb-4 border-t border-rose-light/20 flex items-center justify-between safe-bottom">
               <button
                 onClick={() => onNavigate("prev")}
                 disabled={isFirst}
