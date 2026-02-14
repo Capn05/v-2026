@@ -40,7 +40,7 @@ export default function PhotoCarousel({
               }
             : false
         }
-        className={`w-full aspect-[3/4] rounded-xl overflow-hidden ${
+        className={`w-full aspect-[4/5] rounded-xl overflow-hidden ${
           isSpecial ? "ring-2 ring-gold ring-offset-2 ring-offset-cream" : ""
         }`}
       >
@@ -50,7 +50,7 @@ export default function PhotoCarousel({
               <img
                 src={photo.src}
                 alt={photo.alt}
-                className="w-full h-full object-contain"
+                className="w-full h-full object-cover"
                 loading="lazy"
               />
             </div>

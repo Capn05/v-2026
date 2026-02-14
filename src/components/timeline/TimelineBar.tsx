@@ -16,11 +16,8 @@ export default function TimelineBar({
 }: TimelineBarProps) {
   return (
     <div className="fixed bottom-0 left-0 right-0 z-30 safe-bottom">
-      <div className="bg-cream/90 backdrop-blur-md border-t border-rose-light/20 px-4 pt-4 pb-3">
-        <div className="flex items-center gap-1 overflow-x-auto overflow-y-visible no-scrollbar">
-          {/* Connecting line */}
-          <div className="absolute left-4 right-4 top-1/2 h-px bg-rose-light/30" />
-
+      <div className="bg-cream/90 backdrop-blur-md border-t border-rose-light/20 px-4 pt-3 pb-3">
+        <div className="flex items-center gap-1 overflow-x-auto no-scrollbar">
           {memories.map((memory) => {
             const isActive = memory.id === activeId;
             const isSpecial = memory.isSpecial;
@@ -34,12 +31,12 @@ export default function TimelineBar({
               >
                 <motion.div
                   whileTap={{ scale: 0.85 }}
-                  className={`w-6 h-6 rounded-full flex items-center justify-center text-[10px] font-bold transition-all duration-300 ${
+                  className={`rounded-full flex items-center justify-center font-bold transition-all duration-300 ${
                     isActive
                       ? isSpecial
-                        ? "bg-gold text-white scale-125 shadow-lg"
-                        : "bg-rose text-white scale-125 shadow-lg"
-                      : "bg-white text-warm-brown border border-rose-light/40 hover:border-rose"
+                        ? "w-8 h-8 text-[11px] bg-gold text-white shadow-lg"
+                        : "w-8 h-8 text-[11px] bg-rose text-white shadow-lg"
+                      : "w-6 h-6 text-[10px] bg-white text-warm-brown border border-rose-light/40 hover:border-rose"
                   }`}
                 >
                   {memory.order}

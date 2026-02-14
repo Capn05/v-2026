@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { motion, useMotionValue, useTransform, animate } from "motion/react";
-import { Heart, MapPin, Camera } from "lucide-react";
+import { Heart, MapPin } from "lucide-react";
 import { getDaysTogether, stats } from "@/data/stats";
 
 function AnimatedCounter({ target, duration = 2 }: { target: number; duration?: number }) {
@@ -70,15 +70,6 @@ export default function OurStats() {
                   <AnimatedCounter target={stats.placesVisited} duration={1.5} />
                 </span>{" "}
                 places explored
-              </span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Camera size={14} className="text-rose-light flex-shrink-0" />
-              <span className="font-body text-sm text-warm-brown">
-                <span className="font-semibold text-rose-light">
-                  <AnimatedCounter target={stats.photosTaken} />
-                </span>{" "}
-                photos taken
               </span>
             </div>
           </div>

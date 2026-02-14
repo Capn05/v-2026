@@ -1,9 +1,9 @@
 import { RelationshipStats } from "@/types";
 
 export const stats: RelationshipStats = {
-  startDate: "2020-04-01",
+  startDate: "2020-04-15",
   placesVisited: 13,
-  photosTaken: 847,
+  photosTaken: 0,
   adventuresTogether: 52,
 };
 

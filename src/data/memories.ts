@@ -6,7 +6,7 @@ export const memories: Memory[] = [
     order: 1,
     title: "Where It All Started",
     date: "2020",
-    coordinates: [-94.2088, 36.3729],
+    coordinates: [-94.2841, 36.3598],
     location: "Bentonville, Arkansas",
     description:
       "We were just two sophomores in high school without a care in the world. Our little town is where I found you, and nothing has been the same since. Bentonville gave me the best thing in my life.",
@@ -66,7 +66,7 @@ export const memories: Memory[] = [
     order: 5,
     title: "Watching Her Team",
     date: "February 2023",
-    coordinates: [-97.7431, 30.2672],
+    coordinates: [-97.7321, 30.2810],
     location: "Austin, Texas",
     description:
       "Jordan came to visit and we road-tripped to Austin to watch UT women's basketball — her favorite team. It made me so happy to see her so happy. Everytime she cheered I couldn't help but smile! ",
@@ -96,7 +96,7 @@ export const memories: Memory[] = [
     order: 7,
     title: "Spring Break Out West",
     date: "March 2024",
-    coordinates: [-111.7610, 34.8697],
+    coordinates: [-111.7107, 35.3278],
     location: "Flagstaff & Sedona, Arizona",
     description:
       "Spring break skiing in Flagstaff, and seeing the red rocks in Sedona. But my favorite part was always the quiet moments with her, warming up together after a day on the slopes.",
@@ -111,7 +111,7 @@ export const memories: Memory[] = [
     order: 8,
     title: "Birthday in Palo Alto",
     date: "July 2024",
-    coordinates: [-122.1430, 37.4419],
+    coordinates: [-122.1597, 37.4443],
     location: "Palo Alto, California",
     description:
       "Jordan flew out to California for my birthday while I was interning. Having her there for my birthday was the only thing I needed: I was really really excited to show her everything I had experienced that summer. Without her my birthday feels so lonely",
@@ -170,7 +170,7 @@ export const memories: Memory[] = [
     order: 12,
     title: "Birthday in the Big Apple",
     date: "July 2025",
-    coordinates: [-74.0060, 40.7128],
+    coordinates: [-73.9712, 40.7844],
     location: "New York City",
     description:
       "The second time Jordan flew across the country to be with me for my birthday while I was interning, this time in New York. The city that never sleeps had nothing on us. Jordan and I tore up the city!",
