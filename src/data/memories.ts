@@ -117,7 +117,6 @@ export const memories: Memory[] = [
       "Jordan flew out to California for my birthday while I was interning. Having her there for my birthday was the only thing I needed: I was really really excited to show her everything I had experienced that summer. Without her my birthday feels so lonely",
     photos: [
       { src: "/photos/08-palo-alto/photo1.jpg", alt: "Birthday in Palo Alto" },
-      { src: "/photos/08-palo-alto/photo2.jpg", alt: "Meta campus" },
     ],
     emoji: "🎂",
   },
@@ -190,9 +189,7 @@ export const memories: Memory[] = [
     location: "Houston — Our Home",
     description:
       "Every pin on this map is a piece of our story, from Bentonville to New York City and everywhere in between. You've driven across states, flown across the country, and moved your whole life just to be with me. You are my favorite adventure, my best friend, my home. I love you more than any map could ever show.",
-    photos: [
-      { src: "/photos/13-valentines/photo1.jpg", alt: "Us, today" },
-    ],
+    photos: [],
     emoji: "💝",
     isSpecial: true,
   },

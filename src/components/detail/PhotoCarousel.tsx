@@ -16,6 +16,8 @@ export default function PhotoCarousel({
   photos,
   isSpecial,
 }: PhotoCarouselProps) {
+  if (photos.length === 0) return null;
+
   return (
     <Swiper
       modules={[EffectCreative, Pagination]}
@@ -39,10 +41,6 @@ export default function PhotoCarousel({
               className="w-full h-full object-cover"
               loading="lazy"
             />
-            {/* Placeholder overlay for missing photos */}
-            <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-rose-light/30 to-gold/20 text-warm-brown/50 text-sm font-body">
-              {photo.alt}
-            </div>
           </div>
         </SwiperSlide>
       ))}
