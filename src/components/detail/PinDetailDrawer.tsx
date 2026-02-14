@@ -1,7 +1,7 @@
 "use client";
 
 import { motion, AnimatePresence } from "motion/react";
-import { X, ChevronLeft, ChevronRight, Heart } from "lucide-react";
+import { X, ChevronLeft, ChevronRight, Heart, ImagePlus } from "lucide-react";
 import { useIsDesktop } from "@/hooks/useMediaQuery";
 import { slideInRight, slideInBottom } from "@/lib/animations";
 import type { Memory } from "@/types";
@@ -101,6 +101,15 @@ export default function PinDetailDrawer({
                 photos={memory.photos}
                 isSpecial={isSpecial}
               />
+              {/* Upload photos button */}
+              <button
+                onClick={() => {}}
+                className="w-full flex items-center justify-center gap-2 py-2.5 rounded-lg border border-dashed border-rose-light/50 text-sm font-body text-warm-brown-light hover:border-rose hover:text-rose transition-colors"
+              >
+                <ImagePlus size={16} />
+                Add Photos
+              </button>
+
               <MemoryText
                 description={memory.description}
                 isSpecial={isSpecial}

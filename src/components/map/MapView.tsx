@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useCallback } from "react";
+import { Plus } from "lucide-react";
 import Map from "react-map-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import { MAPBOX_TOKEN, MAP_STYLE, INITIAL_VIEW } from "@/lib/mapbox";
@@ -123,6 +124,15 @@ export default function MapView() {
         isFirst={activeMemory?.order === 1}
         isLast={activeMemory?.order === sortedMemories.length}
       />
+
+      {/* Add new memory button */}
+      <button
+        onClick={() => {}}
+        className="fixed bottom-16 right-4 md:bottom-4 z-30 flex items-center gap-2 px-4 py-2.5 bg-rose text-white font-body text-sm rounded-full shadow-lg hover:bg-rose-dark transition-colors"
+      >
+        <Plus size={16} />
+        Add Memory
+      </button>
 
       {/* Stats */}
       <OurStats />

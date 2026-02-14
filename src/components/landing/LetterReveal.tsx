@@ -19,7 +19,7 @@ const lines = [
   "A map of us. A map of our love.",
   "Tap each heart to relive our story.",
   "",
-  "Happy Valentine's Day, baby.",
+  "Happy Valentine's Day, missy.",
   "I love you more than words can say.",
   "",
   "— Gabe ♥",
