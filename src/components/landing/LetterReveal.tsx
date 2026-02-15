@@ -22,7 +22,7 @@ const lines = [
   "Happy Valentine's Day, missy.",
   "I love you more than words can say.",
   "",
-  "— Gabe ♥",
+  "— Gabo ♥",
 ];
 
 export default function LetterReveal() {
