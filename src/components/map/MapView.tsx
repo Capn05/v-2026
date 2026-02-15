@@ -17,10 +17,12 @@ import TimelineBar from "../timeline/TimelineBar";
 import TimelineSidebar from "../timeline/TimelineSidebar";
 import MusicToggle from "../shared/MusicToggle";
 import OurStats from "../shared/OurStats";
+import ComingSoonModal from "../shared/ComingSoonModal";
 
 export default function MapView() {
   const [activeMemory, setActiveMemory] = useState<Memory | null>(null);
   const [drawerOpen, setDrawerOpen] = useState(false);
+  const [showComingSoon, setShowComingSoon] = useState(false);
   const { mapRef, flyToMemory, resetView } = useMapFlyTo();
   const isDesktop = useIsDesktop();
 
@@ -127,12 +129,17 @@ export default function MapView() {
 
       {/* Add new memory button */}
       <button
-        onClick={() => {}}
+        onClick={() => setShowComingSoon(true)}
         className="fixed bottom-16 right-4 md:bottom-4 z-30 flex items-center gap-2 px-4 py-2.5 bg-rose text-white font-body text-sm rounded-full shadow-lg hover:bg-rose-dark transition-colors"
       >
         <Plus size={16} />
         Add Memory
       </button>
+
+      <ComingSoonModal
+        isOpen={showComingSoon}
+        onClose={() => setShowComingSoon(false)}
+      />
 
       {/* Stats */}
       <OurStats />

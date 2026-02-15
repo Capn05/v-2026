@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { X, ChevronLeft, ChevronRight, Heart, ImagePlus } from "lucide-react";
 import { useIsDesktop } from "@/hooks/useMediaQuery";
@@ -8,6 +9,7 @@ import type { Memory } from "@/types";
 import PhotoCarousel from "./PhotoCarousel";
 import MemoryText from "./MemoryText";
 import HeartBurst from "../shared/HeartBurst";
+import ComingSoonModal from "../shared/ComingSoonModal";
 
 interface PinDetailDrawerProps {
   memory: Memory | null;
@@ -27,6 +29,7 @@ export default function PinDetailDrawer({
   isLast,
 }: PinDetailDrawerProps) {
   const isDesktop = useIsDesktop();
+  const [showComingSoon, setShowComingSoon] = useState(false);
 
   if (!memory) return null;
 
@@ -103,12 +106,17 @@ export default function PinDetailDrawer({
               />
               {/* Upload photos button */}
               <button
-                onClick={() => {}}
+                onClick={() => setShowComingSoon(true)}
                 className="w-full flex items-center justify-center gap-2 py-2.5 rounded-lg border border-dashed border-rose-light/50 text-sm font-body text-warm-brown-light hover:border-rose hover:text-rose transition-colors"
               >
                 <ImagePlus size={16} />
                 Add Photos
               </button>
+
+              <ComingSoonModal
+                isOpen={showComingSoon}
+                onClose={() => setShowComingSoon(false)}
+              />
 
               <MemoryText
                 description={memory.description}
